@@ -4197,6 +4197,81 @@ body.sidebar-open{overflow:hidden}
           <div class="diag-subblock-title">AI Insight <span class="zh">智能判斷 — Step 3</span></div>
           <div class="smart-out" id="smart3"></div>
         </div>
+
+        <!-- ▼▼▼ 帳號健檢判準（判準唯一來源；工作台 v158 帳號健檢填寫表只引用、不另寫一套）▼▼▼ -->
+        <div class="diag-subblock" id="acc-health-rubric">
+          <div class="diag-subblock-title">Account Health Rubric <span class="zh">帳號健檢判準 — 8 維度好／普／差打分錨點</span></div>
+          <div style="font-size:12.5px;color:var(--sub-text);line-height:1.85;margin:2px 0 14px;padding:11px 14px;background:var(--hero-pink);border-left:3px solid var(--primary);border-radius:0 8px 8px 0">
+            這是「帳號健檢」的<b style="color:var(--primary)">標準答案來源</b>。工作台（ATELIER 影片診斷工作台）的 🪪 帳號健檢填寫表，對每個客戶逐項打 1–5 分時，<b>依下表判斷</b>。判準只住這裡一份；日後要微調，只改這張表，工作台引用即可。
+          </div>
+          <div style="overflow-x:auto">
+          <table style="width:100%;border-collapse:collapse;font-size:13px;min-width:560px">
+            <thead>
+              <tr style="background:var(--primary);color:var(--warm-white)">
+                <th style="text-align:left;padding:9px 11px;font-weight:600;width:18%">維度</th>
+                <th style="text-align:left;padding:9px 11px;font-weight:600">5 分（好）</th>
+                <th style="text-align:left;padding:9px 11px;font-weight:600">3 分（普）</th>
+                <th style="text-align:left;padding:9px 11px;font-weight:600">1 分（差）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid var(--border)">
+                <td style="padding:9px 11px;font-weight:600;color:var(--primary);vertical-align:top">1. 三秒定位</td>
+                <td style="padding:9px 11px;vertical-align:top">進首頁 2–3 秒就懂他是誰＋發什麼</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--sub-text)">看一會兒猜得到</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--muted)">看不出在做什麼</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border);background:var(--card-bg)">
+                <td style="padding:9px 11px;font-weight:600;color:var(--primary);vertical-align:top">2. 簡介五要素</td>
+                <td style="padding:9px 11px;vertical-align:top">身份／價值／發什麼／服務 CTA／連結 五項齊全</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--sub-text)">缺 1–2 項，或沒有 CTA</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--muted)">空白或一串無關文字</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border)">
+                <td style="padding:9px 11px;font-weight:600;color:var(--primary);vertical-align:top">3. 頭像與視覺一致性</td>
+                <td style="padding:9px 11px;vertical-align:top">頭像清楚、全版同一個調性，一看就是同一人</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--sub-text)">部分不一致</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--muted)">雜亂、無識別</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border);background:var(--card-bg)">
+                <td style="padding:9px 11px;font-weight:600;color:var(--primary);vertical-align:top">4. 置頂貼文</td>
+                <td style="padding:9px 11px;vertical-align:top">有置頂，且是「人設片」當信任錨點</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--sub-text)">有置頂，但選錯內容</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--muted)">沒有置頂</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border)">
+                <td style="padding:9px 11px;font-weight:600;color:var(--primary);vertical-align:top">5. 精選限動分類</td>
+                <td style="padding:9px 11px;vertical-align:top">依主題分類清楚，新粉一看秒懂</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--sub-text)">有，但雜亂</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--muted)">沒有或全空</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border);background:var(--card-bg)">
+                <td style="padding:9px 11px;font-weight:600;color:var(--primary);vertical-align:top">6. 九宮格主題一致</td>
+                <td style="padding:9px 11px;vertical-align:top">版面前九格主題聚焦，看得出定位</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--sub-text)">主題偏雜</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--muted)">完全無主題</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border)">
+                <td style="padding:9px 11px;font-weight:600;color:var(--primary);vertical-align:top">7. 三類片配比</td>
+                <td style="padding:9px 11px;vertical-align:top">人設片／流量片／轉化片 三類齊、配比合理</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--sub-text)">偏重某一類</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--muted)">只有單一類，或完全沒有轉化片</td>
+              </tr>
+              <tr>
+                <td style="padding:9px 11px;font-weight:600;color:var(--primary);vertical-align:top">8. 互動數據面</td>
+                <td style="padding:9px 11px;vertical-align:top">互動率／完播率／續看率 都健康</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--sub-text)">中等</td>
+                <td style="padding:9px 11px;vertical-align:top;color:var(--muted)">明顯偏低，或沒有數據</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <div style="font-size:12px;color:var(--muted);line-height:1.8;margin-top:11px">
+            打分方式：每維 1–5 分（4 分介於好與普、2 分介於普與差）。8 維加總滿分 40。<br>
+            工作台會自動加總、並標出<b style="color:var(--primary)">分數最低的 3 項</b>＝最該優先修，再把「總分＋待修 top3」一起帶進 IP 定位診斷書，先健檢、再產定位。
+          </div>
+        </div>
+        <!-- ▲▲▲ 帳號健檢判準 結束 ▲▲▲ -->
       </section>
 
       <section class="diag-section" id="d-content-check">
